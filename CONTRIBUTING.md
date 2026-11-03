@@ -61,7 +61,7 @@ Folders under `agents/` that aren't submodules fail CI.
 
 An agent can be only instructions, or Python code, or both. Give the repository its own CI that
 runs its tests; the maavaDao agents use a small
-[test workflow](https://github.com/maavadao/community-agent-claim-checker/blob/main/.github/workflows/test.yml)
+[test workflow](https://github.com/Maava-Community-Agents/community-agent-claim-checker/blob/main/.github/workflows/test.yml)
 you can copy.
 
 ## Check your work

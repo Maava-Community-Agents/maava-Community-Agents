@@ -9,7 +9,7 @@ Open-source AI agents for sales, marketing and growth, customised for your busin
 [![Website](https://img.shields.io/badge/Website-maavadao.com%2Fagents-orange?style=flat-square&logo=googlechrome&logoColor=white)](https://maavadao.com/agents)&nbsp;&nbsp;
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square)](LICENSE)&nbsp;&nbsp;
 [![Revenue: 60% community, 40% charity](https://img.shields.io/badge/Revenue-60%25_community_·_40%25_charity-orange?style=flat-square)](#where-the-revenue-goes)&nbsp;&nbsp;
-[![Validate](https://img.shields.io/github/actions/workflow/status/maavadao/maava-Community-Agents/validate.yml?branch=main&style=flat-square&label=Validate)](https://github.com/maavadao/maava-Community-Agents/actions/workflows/validate.yml)&nbsp;&nbsp;
+[![Validate](https://img.shields.io/github/actions/workflow/status/Maava-Community-Agents/maava-Community-Agents/validate.yml?branch=main&style=flat-square&label=Validate)](https://github.com/Maava-Community-Agents/maava-Community-Agents/actions/workflows/validate.yml)&nbsp;&nbsp;
 [![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 
 </div>
@@ -37,20 +37,20 @@ maintainer. This repository is the index: it includes each agent as a Git submod
 <!-- agents:start -->
 | Agent | What it does | Maintainer |
 | --- | --- | --- |
-| [**Claim Checker**](https://github.com/maavadao/community-agent-claim-checker) | Checks a forwarded message or rumour against Wikipedia and says, part by part, what holds up, with sources. | [maavaDao team](https://github.com/maavadao) |
-| [**Compliance Agent**](https://github.com/maavadao/community-agent-compliance-agent) | Checks school and NGO policies, forms and materials against safeguarding and data-protection checklists, and flags gaps in plain language. | [maavaDao team](https://github.com/maavadao) |
-| [**Content Research Agent**](https://github.com/maavadao/community-agent-content-research-agent) | Plans content: finds and summarises trustworthy sources, suggests angles, and builds an outline with citations. | [maavaDao team](https://github.com/maavadao) |
-| [**Content Review Agent**](https://github.com/maavadao/community-agent-content-review-agent) | Checks a draft before it goes out: facts, tone, accessibility, age suitability and copyright, then prepares it for publishing. | [maavaDao team](https://github.com/maavadao) |
-| [**Content Writer Agent**](https://github.com/maavadao/community-agent-content-writer-agent) | Turns an approved outline into a first draft: article, video script, lesson text or social post, in the creator's voice. | [maavaDao team](https://github.com/maavadao) |
-| [**Dependency Doctor**](https://github.com/maavadao/community-agent-dependency-doctor) | Scans a project's lockfile for known vulnerabilities and tells you exactly what to upgrade first. | [maavaDao team](https://github.com/maavadao) |
-| [**Law Agent**](https://github.com/maavadao/community-agent-law-agent) | Explains laws and rights that matter to schools, teachers, creators and child-focused organisations in plain language, with sources. | [maavaDao team](https://github.com/maavadao) |
-| [**Planting Advisor**](https://github.com/maavadao/community-agent-planting-advisor) | Tells smallholder farmers and gardeners when to sow, water and protect a crop, from real weather for their place. | [maavaDao team](https://github.com/maavadao) |
+| [**Claim Checker**](https://github.com/Maava-Community-Agents/community-agent-claim-checker) | Checks a forwarded message or rumour against Wikipedia and says, part by part, what holds up, with sources. | [maavaDao team](https://github.com/maavadao) |
+| [**Compliance Agent**](https://github.com/Maava-Community-Agents/community-agent-compliance-agent) | Checks school and NGO policies, forms and materials against safeguarding and data-protection checklists, and flags gaps in plain language. | [maavaDao team](https://github.com/maavadao) |
+| [**Content Research Agent**](https://github.com/Maava-Community-Agents/community-agent-content-research-agent) | Plans content: finds and summarises trustworthy sources, suggests angles, and builds an outline with citations. | [maavaDao team](https://github.com/maavadao) |
+| [**Content Review Agent**](https://github.com/Maava-Community-Agents/community-agent-content-review-agent) | Checks a draft before it goes out: facts, tone, accessibility, age suitability and copyright, then prepares it for publishing. | [maavaDao team](https://github.com/maavadao) |
+| [**Content Writer Agent**](https://github.com/Maava-Community-Agents/community-agent-content-writer-agent) | Turns an approved outline into a first draft: article, video script, lesson text or social post, in the creator's voice. | [maavaDao team](https://github.com/maavadao) |
+| [**Dependency Doctor**](https://github.com/Maava-Community-Agents/community-agent-dependency-doctor) | Scans a project's lockfile for known vulnerabilities and tells you exactly what to upgrade first. | [maavaDao team](https://github.com/maavadao) |
+| [**Law Agent**](https://github.com/Maava-Community-Agents/community-agent-law-agent) | Explains laws and rights that matter to schools, teachers, creators and child-focused organisations in plain language, with sources. | [maavaDao team](https://github.com/maavadao) |
+| [**Planting Advisor**](https://github.com/Maava-Community-Agents/community-agent-planting-advisor) | Tells smallholder farmers and gardeners when to sow, water and protect a crop, from real weather for their place. | [maavaDao team](https://github.com/maavadao) |
 <!-- agents:end -->
 
 Get every agent at once:
 
 ```bash
-git clone --recurse-submodules https://github.com/maavadao/maava-Community-Agents
+git clone --recurse-submodules https://github.com/Maava-Community-Agents/maava-Community-Agents
 ```
 
 Already cloned? Run `git submodule update --init`, and `git submodule update --remote` to move
@@ -98,7 +98,7 @@ On every change to `main`, [Publish index](.github/workflows/publish.yml) valida
 [`scripts/build_index.py`](scripts/build_index.py) and publishes `index.json` on GitHub Pages:
 
 ```
-https://maavadao.github.io/maava-Community-Agents/index.json
+https://maava-community-agents.github.io/maava-Community-Agents/index.json
 ```
 
 [maavadao.com/agents](https://maavadao.com/agents) reads it, so an updated agent shows up on the

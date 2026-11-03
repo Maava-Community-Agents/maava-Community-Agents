@@ -30,7 +30,7 @@ The gateway's chat endpoint is off by default. Turn it on with
 ## Install
 
 ```bash
-pip install "maava-agent-sdk @ git+https://github.com/maavadao/maava-Community-Agents#subdirectory=sdk"
+pip install "maava-agent-sdk @ git+https://github.com/Maava-Community-Agents/maava-Community-Agents#subdirectory=sdk"
 ```
 
 Version 0.1.0 is a first draft; the API may change.
