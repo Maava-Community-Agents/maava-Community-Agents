@@ -22,3 +22,27 @@
 [submodule "agents/planting-advisor"]
 	path = agents/planting-advisor
 	url = https://github.com/Maava-Community-Agents/community-agent-planting-advisor.git
+[submodule "upstream/langgraph"]
+	path = upstream/langgraph
+	url = https://github.com/langchain-ai/langgraph.git
+[submodule "upstream/langchain"]
+	path = upstream/langchain
+	url = https://github.com/langchain-ai/langchain.git
+[submodule "upstream/crewai"]
+	path = upstream/crewai
+	url = https://github.com/crewAIInc/crewAI.git
+[submodule "upstream/ag2"]
+	path = upstream/ag2
+	url = https://github.com/ag2ai/ag2.git
+[submodule "upstream/openai-agents-python"]
+	path = upstream/openai-agents-python
+	url = https://github.com/openai/openai-agents-python.git
+[submodule "upstream/smolagents"]
+	path = upstream/smolagents
+	url = https://github.com/huggingface/smolagents.git
+[submodule "upstream/pydantic-ai"]
+	path = upstream/pydantic-ai
+	url = https://github.com/pydantic/pydantic-ai.git
+[submodule "upstream/llama_index"]
+	path = upstream/llama_index
+	url = https://github.com/run-llama/llama_index.git
